@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile"
+    android:layout_width="match_parent"
+    android:background="@drawable/bc"
+    android:layout_height="match_parent"
+    tools:context="com.nikhilv.profileactivity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:text="Email - xyz @ s.com"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginTop="71dp"
+        android:text="Phone - 88888888"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginTop="142dp"
+        android:text="School - ABC school"
+        android:textSize="40sp" />
+
+</FrameLayout>
